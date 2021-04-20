@@ -1,0 +1,1 @@
+<view class="cu-bar search bg-white"><navigator url="../../pages/search/search"><view class="search-form round"><text class="cuIcon-search"></text><input adjust-position="{{false}}" type="text" placeholder="搜索图片、文章、视频" confirm-type="search"/></view></navigator></view>

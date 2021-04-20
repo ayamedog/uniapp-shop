@@ -1,0 +1,1 @@
+.bg-red{background-color:#1cbbb4}page{padding-top:100rpx}.search_row{position:fixed;width:100%;top:0;left:0;z-index:999}.search_content .cu-list .cu-item .content{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

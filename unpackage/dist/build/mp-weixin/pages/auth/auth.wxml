@@ -1,0 +1,1 @@
+<view class="cu-bar btn-group"><button class="cu-btn bg-green shadow-blur round lg" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">获取授权</button></view>

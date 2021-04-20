@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="uri:uni-app" location="$PROJECT_DIR$/../../wechat-xsd/wechat-extend.xsd" />
+    <default-html-doctype>uri:uni-app</default-html-doctype>
+  </component>
+</project>

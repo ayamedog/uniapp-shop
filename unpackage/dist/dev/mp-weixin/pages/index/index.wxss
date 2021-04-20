@@ -1,0 +1,52 @@
+
+.content{
+    width: 100%;
+}
+.tower-swiper .tower-item {
+    -webkit-transform: scale(calc(0.5 + var(--index) / 10));
+            transform: scale(calc(0.5 + var(--index) / 10));
+    margin-left: calc(var(--left) * 100rpx - 150rpx);
+    z-index: var(--index);
+}
+.index_cate{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.index_cate navigator {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    padding: 20rpx;
+}
+.index_cate navigator image{
+    width: 100%;
+}
+  /*  楼层*/
+.floor_title{
+    padding: 10rpx 0;
+}
+.floor_title image{
+    width: 100%;
+}
+.floor_list{
+    overflow: hidden;
+}
+.floor_list navigator{
+    float: left;
+    width: 33.33%;
+}
+.floor_list navigator:nth-last-child(-n+4) {
+    /* 原图的宽高 232 *386 */
+    height: 27.72711207vw;
+    border-left: 10rpx solid #fff;
+}
+.floor_list navigator:nth-child(2),
+  .floor_list navigator:nth-child(3) {
+    border-bottom: 10rpx solid #fff;
+}
+.floor_list navigator image {
+    width: 100%;
+    height: 100%;
+}
+

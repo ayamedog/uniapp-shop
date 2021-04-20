@@ -1,0 +1,1 @@
+<view class="login"><button data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="cu-btn bg-white round shadow lg" bindtap="__e">点击登录</button></view>
